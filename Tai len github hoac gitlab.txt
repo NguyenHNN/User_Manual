@@ -1,0 +1,25 @@
+Cac cach đẩy dự án lên git 
+tạo folder trong folder click right chọn Open Git Bash Here
+Nhập
+git clone http://git.fa.edu.vn/Nguyen24112003/ngocnguyen.git
+sau đó lấy file cần đưa lên đưa vào folder mớ tạo sau đó
+nhập 
+git add .
+sau đó
+git commit -m "Tên comment"
+cuối cùng
+git push -o origin
+
+
+gut pull: lấy dự án về 
+
+
+
+
+Đổi severname
+sp_helpserver 
+select @@servername
+sp_dropserver 'NgocNguyen'  
+go
+sp_addserver 'Nguyen','local'  
+go
